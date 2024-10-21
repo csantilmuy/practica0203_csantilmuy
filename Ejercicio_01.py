@@ -4,4 +4,4 @@
 # variable sin tener en cuenta mayúsculas y minúsculas.
 contraseña = "contraseña"
 peticióncontraseña = input("Escriba su contraseña: ")
-if 
+if contraseña == peticióncontraseña.lower():
