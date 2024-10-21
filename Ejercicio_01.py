@@ -6,5 +6,5 @@ contraseña = "contraseña"
 peticióncontraseña = input("Escriba su contraseña: ")
 if contraseña == peticióncontraseña.lower():
     print("La contraseña coincide con la guardada")
-else
+else:
     print("La contraseña no coincide con la guardada")
