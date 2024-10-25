@@ -3,3 +3,5 @@
 # contraseña correcta.
 contraseña = "pañuelo"
 peticióncontraseña = input("Contraseña: ")
+while contraseña == peticióncontraseña:
+print()
