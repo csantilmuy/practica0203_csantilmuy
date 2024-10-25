@@ -3,3 +3,5 @@
 # la frase.
 frase = input("Escribe una frase: ")
 letra = input("Escribe una letra: ")
+veces = frase.count(letra)
+print(f"La letra {letra} aparece {veces} veces en la frase")

@@ -2,3 +2,5 @@
 # pantalla una a una las letras de la palabra introducida empezando por
 # la última.
 palabra = input("Escribe una palabra: ")
+for letra in reversed(palabra):
+    print(letra)
