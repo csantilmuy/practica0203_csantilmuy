@@ -3,7 +3,8 @@
 # que pregunte al usuario su edad y sus ingresos mensuales y muestre por
 # pantalla si el usuario tiene que tributar o no.
 edad = int(input("Edad: "))
-ingresos = int(input("Ingresos mensuales: "))
+ingresos = float(input("Ingresos mensuales: "))
+c 
 if edad > 16:
     print("Tiene que tributar")
 elif ingresos >= 1000:
