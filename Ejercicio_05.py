@@ -4,4 +4,8 @@
 # a la N y Slytheryn por el resto. Escribir un programa que pregunte al
 # usuario su nombre y sexo, y muestre por pantalla el grupo que le corresponde
 nombre = input("Escribe tu nombre: ")
-sexo = input("¿Hombre o mujer?: ")
+sexo = input("¿Hombre o mujer?: ").lower()
+if (sexo == "mujer" and nombre < "M") or (sexo == "hombre" and nombre > "N"):
+    print("Correspondes al grupo Gryffindor")
+else:
+    print("Correspondes al grupo Slytheryn")
